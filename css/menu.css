@@ -1,0 +1,33 @@
+.menu {
+	display: flex;
+	block-size: 100%;
+}
+
+.menu.is-hidden {
+	display: none;
+}
+
+.menu-item {
+	display: flex;
+	align-items: center;
+	color: var(--grey);
+	padding-inline-end: 0.875rem;
+	padding-inline-start: 0.875rem;
+	transition: box-shadow 0.3s;
+	-webkit-transition: box-shadow 0.3s;
+	-moz-transition: box-shadow 0.3s;
+	-ms-transition: box-shadow 0.3s;
+	-o-transition: box-shadow 0.3s;
+}
+
+.menu-item:hover {
+	box-shadow: 0 -5px var(--primary) inset;
+}
+
+.menu-item:hover {
+	color: var(--white);
+}
+
+.menu-item i {
+	font-size: 1.5rem;
+}
