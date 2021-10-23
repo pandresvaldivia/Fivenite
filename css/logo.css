@@ -1,0 +1,20 @@
+.logo {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.logo .logo-image {
+	margin: 0;
+}
+
+.logo .logo-description {
+	margin: 0;
+	block-size: 2.5rem;
+	display: flex;
+	align-items: center;
+}
+
+.logo-image img,
+.logo-description img {
+	vertical-align: middle;
+}
