@@ -4,13 +4,22 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+			rel="stylesheet"
+		/>
+
 		<title>Fivenite</title>
 
 		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/icon.css" />
 		<link rel="stylesheet" href="./css/header.css" />
 		<link rel="stylesheet" href="./css/logo.css" />
 		<link rel="stylesheet" href="./css/navbar.css" />
 		<link rel="stylesheet" href="./css/burger-button.css" />
+		<link rel="stylesheet" href="./css/mobile-menu.css" />
 	</head>
 	<body class="body">
 		<header class="header">
@@ -44,6 +53,40 @@
 			>
 				<div class="burgerButton-content"></div>
 			</div>
+			<nav class="mobileMenu">
+				<ul
+					class="mobileMenu-content"
+					role="menubar"
+					aria-label="Menu principal"
+				>
+					<li class="mobileMenu-item" role="none">
+						<a href="#" role="menuitem">Pase de batalla</a>
+					</li>
+					<li class="mobileMenu-item" role="none">
+						<a href="#" role="menuitem">Modo creativo</a>
+					</li>
+					<li class="mobileMenu-item" role="none">
+						<a href="#" role="menuitem">Salvar el mundo</a>
+					</li>
+					<li class="mobileMenu-item" role="none">
+						<a href="#" role="menuitem">Competitivo</a>
+					</li>
+					<li class="mobileMenu-item" role="none">
+						<a href="#" role="menuitem">Noticias</a>
+					</li>
+					<li class="mobileMenu-item" role="none">
+						<a href="#" role="menuitem">Ayuda</a>
+					</li>
+				</ul>
+				<div
+					class="mobileMenu-actions"
+					role="menubar"
+					aria-label="Menu de acciones"
+				>
+					<a href="#">Iniciar sesión</a>
+					<a class="mobileMenu-download" href="#">Descargar</a>
+				</div>
+			</nav>
 		</header>
 		<script src="./js/main.js" type="module"></script>
 	</body>

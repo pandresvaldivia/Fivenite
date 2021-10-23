@@ -3,8 +3,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	block-size: 100%;
-	inline-size: 2.8125rem;
+	block-size: 2rem;
+	inline-size: 1.5rem;
 	overflow: hidden;
 	cursor: pointer;
 	transition: 0.2s ease-in-out;
@@ -15,8 +15,8 @@
 }
 
 .burgerButton-content {
-	block-size: 0.25rem;
-	inline-size: 2.1875rem;
+	block-size: 0.125rem;
+	inline-size: 1.5rem;
 	background: #ffffff;
 	transition: 0.2s ease-in-out;
 	-webkit-transition: 0.2s ease-in-out;
@@ -29,8 +29,8 @@
 .burgerButton-content::after {
 	content: '';
 	position: absolute;
-	block-size: 0.25rem;
-	inline-size: 2.1875rem;
+	block-size: 0.125rem;
+	inline-size: 1.5rem;
 	background: #ffffff;
 	transition: 0.2s ease-in-out;
 	-webkit-transition: 0.2s ease-in-out;
@@ -40,19 +40,19 @@
 }
 
 .burgerButton-content::before {
-	transform: translateY(-0.625rem);
-	-webkit-transform: translateY(-0.625rem);
-	-moz-transform: translateY(-0.625rem);
-	-ms-transform: translateY(-0.625rem);
-	-o-transform: translateY(-0.625rem);
+	transform: translateY(-0.5rem);
+	-webkit-transform: translateY(-0.5rem);
+	-moz-transform: translateY(-0.5rem);
+	-ms-transform: translateY(-0.5rem);
+	-o-transform: translateY(-0.5rem);
 }
 
 .burgerButton-content::after {
-	transform: translateY(0.625rem);
-	-webkit-transform: translateY(0.625rem);
-	-moz-transform: translateY(0.625rem);
-	-ms-transform: translateY(0.625rem);
-	-o-transform: translateY(0.625rem);
+	transform: translateY(0.5rem);
+	-webkit-transform: translateY(0.5rem);
+	-moz-transform: translateY(0.5rem);
+	-ms-transform: translateY(0.5rem);
+	-o-transform: translateY(0.5rem);
 }
 
 .burgerButton.is-pressed .burgerButton-content {

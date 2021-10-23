@@ -3,9 +3,12 @@
 	--grey: #cccccc;
 	--white: #ffffff;
 	--primary: #ffff01;
-	--body2-semibold: 600 0.75rem/1.5rem Open Sans;
+	--fontBase: 'Open Sans', sans-serif;
+	--body2-semibold: 600 0.75rem/1.5rem var(--fontBase);
 }
 
 .body {
 	margin: 0;
+	min-inline-size: 22.5rem;
+	overflow-x: hidden;
 }
