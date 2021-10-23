@@ -1,0 +1,12 @@
+.hero {
+	background: url('../assets/images/hero.png') no-repeat;
+	background-size: cover;
+	inline-size: 100%;
+	aspect-ratio: 34150/25641;
+}
+
+@supports not (aspect-ratio: 34150/25641) {
+	.hero {
+		block-size: calc(100vw * 0.751);
+	}
+}
