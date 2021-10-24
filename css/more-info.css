@@ -1,0 +1,29 @@
+.moreInfo {
+	inline-size: 100%;
+	background: url('../assets/images/more-info.png') no-repeat;
+	background-size: cover;
+	aspect-ratio: 68300/38419;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.moreInfo-button {
+	font-size: 1.5rem;
+	color: var(--black);
+	text-decoration: none;
+	padding-inline-end: 1rem;
+	padding-inline-start: 1rem;
+	padding-block-end: 0.5rem;
+	padding-block-start: 0.5rem;
+	background: var(--primary);
+	text-transform: uppercase;
+}
+
+.moreInfo-button:active {
+	transform: scale(0.95);
+	-webkit-transform: scale(0.95);
+	-moz-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	-o-transform: scale(0.95);
+}

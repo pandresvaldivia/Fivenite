@@ -25,6 +25,7 @@
 		<link rel="stylesheet" href="./css/wrapper.css" />
 		<link rel="stylesheet" href="./css/feature.css" />
 		<link rel="stylesheet" href="./css/section.css" />
+		<link rel="stylesheet" href="./css/more-info.css" />
 	</head>
 	<body class="body">
 		<header class="header">
@@ -106,9 +107,9 @@
 			</nav>
 		</header>
 		<div class="hero"></div>
-		<div class="wrapper">
-			<main>
-				<section class="section">
+		<main>
+			<div class="wrapper">
+				<section class="section" aria-label="Característias del juego">
 					<article class="feature">
 						<figure class="feature-poster">
 							<img
@@ -187,8 +188,11 @@
 						</div>
 					</article>
 				</section>
-			</main>
-		</div>
+			</div>
+			<section class="moreInfo" aria-label="Más información">
+				<a class="moreInfo-button" href="#">Más información</a>
+			</section>
+		</main>
 		<script src="./js/main.js" type="module"></script>
 	</body>
 </html>
