@@ -26,6 +26,7 @@
 		<link rel="stylesheet" href="./css/feature.css" />
 		<link rel="stylesheet" href="./css/section.css" />
 		<link rel="stylesheet" href="./css/more-info.css" />
+		<link rel="stylesheet" href="./css/footer.css" />
 	</head>
 	<body class="body">
 		<header class="header">
@@ -35,6 +36,7 @@
 						<img
 							src="./assets/images/logo.png"
 							height="40"
+							width="40"
 							alt="Logo de Epic Games"
 						/>
 					</a>
@@ -44,6 +46,7 @@
 						<img
 							src="./assets/images/fivenite.svg"
 							height="24"
+							width="97"
 							alt="Logo de Fivenite"
 						/>
 					</a>
@@ -71,7 +74,7 @@
 			>
 				<div class="burgerButton-content"></div>
 			</div>
-			<nav class="mobileMenu">
+			<nav class="mobileMenu" aria-label="Menu principal">
 				<ul
 					class="mobileMenu-content"
 					role="menubar"
@@ -193,6 +196,45 @@
 				<a class="moreInfo-button" href="#">Más información</a>
 			</section>
 		</main>
+		<footer class="footer">
+			<figure class="footer-logo">
+				<img
+					src="./assets/images/fivenite.svg"
+					height="24"
+					width="97"
+					alt="Logo de Fivenite"
+				/>
+			</figure>
+			<section class="footer-content">
+				<nav class="footer-menu" aria-label="Menu footer">
+					<ul class="footer-menuSection">
+						<li class="footer-menuItem">
+							<a href="#" aria-current="page">Inicio</a>
+						</li>
+						<li class="footer-menuItem"><a href="#">Pase de batalla</a></li>
+						<li class="footer-menuItem"><a href="#">Ver</a></li>
+						<li class="footer-menuItem"><a href="#">Consigue Fivenite</a></li>
+					</ul>
+					<ul class="footer-menuSection">
+						<li class="footer-menuItem"><a href="#">Noticias</a></li>
+						<li class="footer-menuItem">
+							<a href="#">Preguntas frecuentes</a>
+						</li>
+						<li class="footer-menuItem"><a href="#">CLUE</a></li>
+						<li class="footer-menuItem"><a href="#">Competitivo</a></li>
+					</ul>
+					<ul class="footer-menuSection">
+						<li class="footer-menuItem"><a href="#">Ayuda</a></li>
+						<li class="footer-menuItem">
+							<a href="#">Seguridad y protección</a>
+						</li>
+						<li class="footer-menuItem">
+							<a href="#">Reglas de la comunidad</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+		</footer>
 		<script src="./js/main.js" type="module"></script>
 	</body>
 </html>
