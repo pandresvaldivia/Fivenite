@@ -14,6 +14,7 @@
 	-ms-transition: inline-size 0.3s ease-out;
 	-o-transition: inline-size 0.3s ease-out;
 	overflow: hidden;
+	z-index: 1;
 }
 
 .mobileMenu.is-expanded {
