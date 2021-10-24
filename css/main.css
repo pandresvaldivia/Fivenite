@@ -1,14 +1,26 @@
+@font-face {
+	font-family: 'Burbank Big Condensed';
+	src: url('../assets/fonts/BurbankBigCondensed-Black.otf');
+	font-style: normal;
+	font-weight: normal;
+}
+
 :root {
 	--black: #2a2a2a;
 	--grey: #cccccc;
 	--white: #ffffff;
 	--primary: #ffff01;
+	--skyblue: #4dccfa;
 	--fontBase: 'Open Sans', sans-serif;
+	--fontAux: 'Burbank Big Condensed', sans-serif;
+	--headline1: 600 2rem/2rem var(--fontAux);
+	--normal: 600 1rem/1.5rem var(--fontAux);
 	--body2-semibold: 600 0.75rem/1.5rem var(--fontBase);
 }
 
 .body {
 	margin: 0;
 	min-inline-size: 22.5rem;
-	overflow-x: hidden;
+	font: var(--normal);
+	color: var(--black);
 }
