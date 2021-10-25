@@ -21,6 +21,26 @@
 	max-inline-size: 43.75rem;
 	margin-inline-end: auto;
 	margin-inline-start: auto;
+	transform: translateY(2rem);
+	-webkit-transform: translateY(2rem);
+	-moz-transform: translateY(2rem);
+	-ms-transform: translateY(2rem);
+	-o-transform: translateY(2rem);
+	opacity: 0;
+	transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	-o-transition: all 0.8s;
+}
+
+.feature-content.is-visible {
+	opacity: 1;
+	transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
 }
 
 .feature-title {

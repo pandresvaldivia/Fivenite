@@ -25,4 +25,8 @@ function collapseBurguerMenu(button) {
 	button.ariaLabel = 'Desplegar menu';
 }
 
-export { handleBurguerMenu, collapseBurguerMenu };
+const loadHandle = new IntersectionObserver((entries) => {
+	entries[0].isIntersecting && entries[0].target.classList.add('is-visible');
+});
+
+export { handleBurguerMenu, collapseBurguerMenu, loadHandle };
