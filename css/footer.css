@@ -30,6 +30,12 @@
 	align-items: flex-start;
 }
 
+.footer-menuItem {
+	block-size: 1.5rem;
+	display: flex;
+	align-items: center;
+}
+
 .footer-menuItem a {
 	font: var(--body2-semibold);
 	color: var(--grey);
@@ -50,6 +56,8 @@
 	block-size: 2px;
 	display: block;
 	inline-size: 0;
+	position: relative;
+	bottom: 4px;
 	background: var(--primary);
 	transition: inline-size 0.2s;
 	-webkit-transition: inline-size 0.2s;
@@ -60,4 +68,22 @@
 
 .footer-menuItem a:hover::after {
 	inline-size: 100%;
+}
+
+@media screen and (min-width: 670px) {
+	.footer-logo {
+		margin-block-end: 2rem;
+	}
+
+	.footer {
+		padding-block-end: 3.5rem;
+		padding-block-start: 3.5rem;
+		padding-inline-end: 5rem;
+		padding-inline-start: 5rem;
+	}
+
+	.footer-menu {
+		flex-direction: row;
+		gap: 4rem;
+	}
 }
