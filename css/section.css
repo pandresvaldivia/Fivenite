@@ -6,3 +6,9 @@
 	gap: 8rem;
 	margin-block-end: 5rem;
 }
+
+@media screen and (min-width: 630px) {
+	.section {
+		margin-block-end: 8rem;
+	}
+}

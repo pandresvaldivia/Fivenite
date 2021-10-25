@@ -18,6 +18,9 @@
 .feature-content {
 	text-transform: uppercase;
 	text-align: center;
+	max-inline-size: 43.75rem;
+	margin-inline-end: auto;
+	margin-inline-start: auto;
 }
 
 .feature-title {
@@ -30,4 +33,16 @@
 
 .feature-description {
 	margin: 0;
+}
+
+@media screen and (min-width: 500px) {
+	.feature-title {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 630px) {
+	.feature {
+		gap: 4rem;
+	}
 }

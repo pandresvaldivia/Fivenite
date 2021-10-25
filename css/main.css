@@ -24,3 +24,10 @@
 	font: var(--normal);
 	color: var(--black);
 }
+
+@media screen and (min-width: 630px) {
+	:root {
+		--headline1: 600 3.4375rem/4rem var(--fontAux);
+		--normal: 600 1.5rem/2rem var(--fontAux);
+	}
+}
