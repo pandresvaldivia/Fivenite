@@ -8,3 +8,17 @@
 	justify-content: space-between;
 	position: relative;
 }
+
+.header-block {
+	display: flex;
+	block-size: 100%;
+	align-items: center;
+	gap: 2.5rem;
+}
+
+@media screen and (min-width: 1230px) {
+	.header {
+		block-size: 3.5rem;
+		padding-inline-end: 0;
+	}
+}

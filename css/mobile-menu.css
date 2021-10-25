@@ -71,11 +71,17 @@
 	white-space: nowrap;
 }
 
-.mobileMenu-actions a:hover {
+a.mobileMenu-singin:hover {
 	background: #1f1f1f;
 }
 
 a.mobileMenu-download {
 	background: var(--primary);
 	color: var(--black);
+}
+
+@media screen and (min-width: 1230px) {
+	.mobileMenu {
+		display: none;
+	}
 }

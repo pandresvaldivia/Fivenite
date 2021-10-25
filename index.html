@@ -11,6 +11,84 @@
 			rel="stylesheet"
 		/>
 
+		<!-- Favicon -->
+		<link
+			rel="apple-touch-icon"
+			sizes="57x57"
+			href="./assets/favicon/apple-icon-57x57.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="60x60"
+			href="./assets/favicon/apple-icon-60x60.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="72x72"
+			href="./assets/favicon/apple-icon-72x72.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="./assets/favicon/apple-icon-76x76.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="114x114"
+			href="./assets/favicon/apple-icon-114x114.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="120x120"
+			href="./assets/favicon/apple-icon-120x120.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="144x144"
+			href="./assets/favicon/apple-icon-144x144.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="152x152"
+			href="./assets/favicon/apple-icon-152x152.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./assets/favicon/apple-icon-180x180.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="192x192"
+			href="./assets/favicon/android-icon-192x192.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="96x96"
+			href="./assets/favicon/favicon-96x96.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./assets/favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="./assets/favicon/manifest.json" />
+		<meta name="msapplication-TileColor" content="#ffffff" />
+		<meta
+			name="msapplication-TileImage"
+			content="./assets/favicon/ms-icon-144x144.png"
+		/>
+		<meta name="theme-color" content="#ffffff" />
+
 		<title>Fivenite</title>
 
 		<link rel="stylesheet" href="./css/main.css" />
@@ -52,28 +130,40 @@
 					</a>
 				</figure>
 			</div>
-			<nav
-				id="settings-menu"
-				class="menu is-hidden"
-				aria-label="Menu secundario"
-			>
-				<div class="menu-item">
-					<i class="icon-search"></i>
-				</div>
-				<div class="menu-item">
-					<i class="icon-union"></i>
-				</div>
+			<nav class="menu" aria-label="Menu principal">
+				<ul class="menu-list">
+					<li><a class="menu-item" href="#">Pase de batalla</a></li>
+					<li><a class="menu-item" href="#">Modo creativo</a></li>
+					<li><a class="menu-item" href="#">Salvar el mundo</a></li>
+					<li><a class="menu-item" href="#">Competitivo</a></li>
+					<li><a class="menu-item" href="#">Noticias</a></li>
+					<li><a class="menu-item" href="#">Ayuda</a></li>
+				</ul>
 			</nav>
-			<div
-				class="burgerButton"
-				role="button"
-				tabindex="1"
-				aria-label="Desplegar menu"
-				aria-pressed="false"
-				aria-expanded="false"
-			>
-				<div class="burgerButton-content"></div>
+			<div class="header-block">
+				<nav id="settings-menu" class="menu" aria-label="Menu secundario">
+					<div class="menu-item">
+						<i class="icon-search"></i>
+					</div>
+					<div class="menu-item">
+						<i class="icon-union"></i>
+					</div>
+				</nav>
+				<div
+					class="burgerButton"
+					role="button"
+					tabindex="1"
+					aria-label="Desplegar menu"
+					aria-pressed="false"
+					aria-expanded="false"
+				>
+					<div class="burgerButton-content"></div>
+				</div>
 			</div>
+			<nav class="menu-actions" aria-label="Menu de acciones">
+				<a class="menu-singin" href="#">Iniciar sesión</a>
+				<a class="menu-download" href="#">Descargar</a>
+			</nav>
 			<nav class="mobileMenu" aria-label="Menu principal">
 				<ul
 					class="mobileMenu-content"
@@ -104,7 +194,7 @@
 					role="menubar"
 					aria-label="Menu de acciones"
 				>
-					<a href="#">Iniciar sesión</a>
+					<a class="mobileMenu-singin" href="#">Iniciar sesión</a>
 					<a class="mobileMenu-download" href="#">Descargar</a>
 				</div>
 			</nav>
@@ -121,8 +211,7 @@
 									./assets/images/feature1-328w.png 328w,
 									./assets/images/feature1-882w.png 882w
 								"
-								sizes="(min-width: 360px) 328px,
-								(min-width: 900px) 882px"
+								sizes="(min-width: 500px) 882px"
 								width="328"
 								height="162"
 								alt="Poster de La casería ha comenzado"
@@ -146,8 +235,7 @@
 									./assets/images/feature2-328w.png 328w,
 									./assets/images/feature2-882w.png 882w
 								"
-								sizes="(min-width: 360px) 328px,
-								(min-width: 900px) 882px"
+								sizes="(min-width: 500px) 882px"
 								width="328"
 								height="162"
 								alt="Poster de Nuevas zonas de caza"
@@ -172,8 +260,7 @@
 									./assets/images/feature3-328w.png 328w,
 									./assets/images/feature3-882w.png 882w
 								"
-								sizes="(min-width: 360px) 328px,
-								(min-width: 900px) 882px"
+								sizes="(min-width: 500px) 882px"
 								width="328"
 								height="162"
 								alt="Poster de La casería ha comenzado"
