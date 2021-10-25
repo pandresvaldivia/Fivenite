@@ -1,18 +1,18 @@
 .feature {
 	display: flex;
-	gap: 1rem;
 	flex-direction: column;
+	gap: 1rem;
 }
 
 .feature-poster {
-	margin: 0;
 	inline-size: 100%;
+	margin: 0;
 }
 
 .feature-poster img {
-	vertical-align: middle;
-	inline-size: 100%;
 	block-size: auto;
+	inline-size: 100%;
+	vertical-align: middle;
 }
 
 .feature-content {
