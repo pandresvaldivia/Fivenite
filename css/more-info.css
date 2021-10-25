@@ -6,6 +6,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	box-sizing: border-box;
 }
 
 .moreInfo-button {
@@ -26,4 +27,26 @@
 	-moz-transform: scale(0.95);
 	-ms-transform: scale(0.95);
 	-o-transform: scale(0.95);
+}
+
+@supports not (aspect-ratio: 68300/38419) {
+	.moreInfo {
+		block-size: calc(100vw * 0.563);
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.moreInfo {
+		align-items: flex-end;
+		padding-block-end: 10.5625rem;
+	}
+
+	.moreInfo-button {
+		padding-inline-end: 2rem;
+		padding-inline-start: 2rem;
+		padding-block-end: 1rem;
+		padding-block-start: 1rem;
+		font-size: 3rem;
+		line-height: 3rem;
+	}
 }
